@@ -1,0 +1,36 @@
+{
+  "name": "jira_dark",
+  "version": "0.0.2",
+  "description": "Изменяет внешний вид Jira yа тёмный",
+  "main": "build.js",
+  "scripts": {
+    "prebuild": "node bin/less-each.js styles css",
+    "bump-version": "npm --no-git-tag-version version patch",
+    "build": "npm run bump-version && npm run prebuild && node build.js && node error_checker.js",
+    "start": "npm run prebuild && node build.js && node error_checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitiry1921/Jira-Dark.git"
+  },
+  "keywords": [
+    "jira",
+    "dark",
+    "theme"
+  ],
+  "author": "Dmitriy1921",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://vk.com/dmitriy1921"
+  },
+  "homepage": "https://github.com/Dmitiry1921/Jira-Dark/blob/master/README.md",
+  "updateURL": "https://github.com/Dmitiry1921/Jira-Dark/raw/master",
+  "downloadURL": "https://github.com/Dmitiry1921/Jira-Dark/raw/master",
+  "icon": "https://github.com/Dmitiry1921/Jira-Dark/raw/master/src/icon.svg",
+  "supportURL": "https://vk.com/dmitriy1921",
+  "bugsLink": "https://vk.com/dmitriy1921",
+  "dependencies": {
+    "css": "3.0.0",
+    "less": "4.1.2"
+  }
+}
