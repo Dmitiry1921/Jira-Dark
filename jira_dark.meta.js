@@ -8,7 +8,8 @@
 // @updateURL    https://github.com/Dmitiry1921/Jira-Dark/raw/master/jira_dark.meta.js
 // @supportURL   https://vk.com/dmitriy1921
 // @homepage     https://github.com/Dmitiry1921/Jira-Dark/blob/master/README.md
-// @include      https://*.atlassian.net/jira*
+// @include      https://*.atlassian.net/*
+// @include      https://timereports.primetimesheet.net/*
 // @icon         https://github.com/Dmitiry1921/Jira-Dark/raw/master/src/icon.svg
 // @icon64       https://github.com/Dmitiry1921/Jira-Dark/raw/master/src/icon.svg
 // @grant        GM_addStyle

@@ -8,7 +8,8 @@
 // @updateURL    {{package.updateURL}}/{{package.name}}.meta.js
 // @supportURL   {{package.supportURL}}
 // @homepage     {{package.homepage}}
-// @include      https://*.atlassian.net/jira*
+// @include      https://*.atlassian.net/*
+// @include      https://timereports.primetimesheet.net/*
 // @icon         {{package.icon}}
 // @icon64       {{package.icon}}
 // @grant        GM_addStyle
